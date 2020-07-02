@@ -1,7 +1,8 @@
 ## Pointpillar : 3D Object Detection on Point Cloud
-###this project is forked from nutonomy/second.pytorch, and modified for ros environment.
+
 Pointpillars : https://arxiv.org/abs/1812.05784
 
+### this project is forked from nutonomy/second.pytorch, and modified for ros environment.
 ## Requirenment:
 
 
