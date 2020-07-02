@@ -244,6 +244,7 @@ class PrecisionRecall(nn.Module):
             else:
                 scores = F.softmax(preds, dim=self._dim)[:, ..., 1:].sum(-1)
         """
+        #torch max is used to find out the max value of index or actual value in row of multiple colum matrix
         scores = torch.max(total_scores, dim=-1)[0]
         if weights is None:
             weights = (labels != self._ignore_idx).float()

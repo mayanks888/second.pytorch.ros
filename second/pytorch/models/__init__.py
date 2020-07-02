@@ -1,5 +1,1 @@
-import torch
-
-from torch import nn
-
-from torch.nn import functional
+from . import net_multi_head
